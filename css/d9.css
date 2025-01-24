@@ -1,0 +1,720 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firstandlast {
+    background-color: #0E0E0E;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.navcont {
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 840px;
+    width: 100%;
+}
+
+.navhead {
+    display: flex;
+    justify-content: center;
+}
+
+.list ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+.list ul li {
+    text-decoration: none;
+}
+
+.lista {
+    text-decoration: none;
+    color: #7B7B7B;
+
+
+
+}
+
+a:hover {
+    color: white;
+}
+
+.arlene {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.arlene p {
+    color: #FFF;
+
+
+}
+
+.spiderhead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.spidercont {
+    background-image: url(../img/image\ 4.png), url(../img/image\ \(6\).png);
+    max-width: 840px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 16px;
+
+}
+
+.batmanbox {
+    padding: 40px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.batmanbox p {
+    color: #7B7B7B;
+}
+
+
+.star {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.batmantwo {
+    margin-bottom: 90px;
+}
+
+.batmanboxhead {
+    height: 100%;
+    max-width: 335px;
+
+}
+
+.Fantasytext {
+    margin-top: 91px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+
+.fantasy {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.fantasy p {
+    color: #FFF;
+}
+
+
+.bmn {
+    color: #7B7B7B;
+
+
+}
+
+.Watchbtn {
+    display: flex;
+    padding: 12px 24px;
+    border-radius: 8px 32px;
+    background: #A00;
+    box-shadow: 5px 2px 11.9px 0px #A00;
+    border: none;
+    color: #FFF;
+
+}
+
+
+.recomendedcont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.recomendedcontlitl {
+    max-width: 840px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 16px;
+}
+
+.recomendedconttext {
+    display: flex;
+
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.recomendedconttext h1 {
+    color: #FFF;
+    font-size: 32px;
+}
+
+
+.search-container {
+    position: relative;
+    max-width: 269px;
+    width: 100%;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    border-radius: 24px;
+    background: #191919;
+    color: #FFF;
+}
+
+.search-input:focus {
+    border-radius: 24px;
+    border: 1px solid #A00;
+    background: #191919;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #888;
+    pointer-events: none;
+}
+
+.styled-select {
+    position: relative;
+    max-width: 100px;
+    width: 100%;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #2c2c2c;
+    border: 1px solid #555;
+    border-radius: 20px;
+
+    outline: none;
+    cursor: pointer;
+}
+
+select:hover {
+    background-color: #3c3c3c;
+}
+
+form {
+    display: flex;
+    gap: 16px;
+}
+
+.selecttwo {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #2c2c2c;
+    border: 1px solid #555;
+    border-radius: 20px;
+
+    outline: none;
+    cursor: pointer;
+}
+
+.styled-selecttwo {
+    position: relative;
+    max-width: 133px;
+    width: 100%;
+}
+
+.recomendedcontlast {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    max-width: 530px;
+    width: 100%;
+}
+
+.recomendedcontlast h1 {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+
+}
+
+
+.card {
+    width: 192px;
+    height: 219px;
+    border-radius: 16px;
+    background-image: url('../img/image\ \(14\).png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.cardtwo {
+    width: 192px;
+    height: 219px;
+    border-radius: 16px;
+    background-image: url(../img/image\ \(7\).png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.cardthree {
+    width: 192px;
+    height: 219px;
+    border-radius: 16px;
+    background-image: url(../img/image\ \(8\).png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.cardfour {
+    width: 192px;
+    height: 219px;
+    border-radius: 16px;
+    background-image: url(../img/image\ \(9\).png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.cardfive {
+    width: 192px;
+    height: 219px;
+    border-radius: 16px;
+    background-image: url(../img/image\ \(10\).png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.cardsix {
+    width: 192px;
+    height: 219px;
+    border-radius: 16px;
+    background-image: url(../img/image\ \(11\).png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.cardseven {
+    width: 192px;
+    height: 219px;
+    border-radius: 16px;
+    background-image: url(../img/image\ \(12\).png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.cardlast {
+    width: 192px;
+    height: 219px;
+    border-radius: 16px;
+    background-image: url(../img/image\ \(13\).png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+.card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.card:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+.card button {
+    width: 135px;
+    height: 48px;
+    border: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px 32px;
+    background-color: #a00;
+    box-shadow: 5px 2px 11.9px 0px #a00;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+.card:hover button {
+    display: block;
+}
+
+
+
+.cardtwo::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.cardtwo:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+.cardtwo button {
+    width: 135px;
+    height: 48px;
+    border: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px 32px;
+    background-color: #a00;
+    box-shadow: 5px 2px 11.9px 0px #a00;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+.cardtwo:hover button {
+    display: block;
+}
+
+.cardthree::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.cardthree:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+.cardthree button {
+    width: 135px;
+    height: 48px;
+    border: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px 32px;
+    background-color: #a00;
+    box-shadow: 5px 2px 11.9px 0px #a00;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+.cardthree:hover button {
+    display: block;
+}
+
+.cardfour::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.cardfour:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+.cardfour button {
+    width: 135px;
+    height: 48px;
+    border: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px 32px;
+    background-color: #a00;
+    box-shadow: 5px 2px 11.9px 0px #a00;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+.cardfour:hover button {
+    display: block;
+}
+
+.cardfive::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.cardfive:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+.cardfive button {
+    width: 135px;
+    height: 48px;
+    border: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px 32px;
+    background-color: #a00;
+    box-shadow: 5px 2px 11.9px 0px #a00;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+.cardfive:hover button {
+    display: block;
+}
+
+
+.cardsix::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.cardsix:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+.cardsix button {
+    width: 135px;
+    height: 48px;
+    border: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px 32px;
+    background-color: #a00;
+    box-shadow: 5px 2px 11.9px 0px #a00;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+.cardsix:hover button {
+    display: block;
+}
+
+.cardseven::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.cardseven:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+.cardseven button {
+    width: 135px;
+    height: 48px;
+    border: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px 32px;
+    background-color: #a00;
+    box-shadow: 5px 2px 11.9px 0px #a00;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+.cardseven:hover button {
+    display: block;
+}
+
+.cardlast::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.cardlast:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+.cardlast button {
+    width: 135px;
+    height: 48px;
+    border: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px 32px;
+    background-color: #a00;
+    box-shadow: 5px 2px 11.9px 0px #a00;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+.cardlast:hover button {
+    display: block;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    border-radius: 16px;
+
+}
