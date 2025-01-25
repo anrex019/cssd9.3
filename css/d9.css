@@ -69,13 +69,22 @@ a:hover {
 }
 
 .spidercont {
-    background-image: url(../img/image\ 4.png), url(../img/image\ \(6\).png);
+    background-image: url(../img/image\ \(6\).png);
+    max-width: 840px;
+    width: 100%;
+    background-repeat: no-repeat;
+
+    border-radius: 16px;
+
+}
+
+.spidertwoimg {
+    background-image: url(../img/image\ 4.png);
     max-width: 840px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: right;
-    border-radius: 16px;
-
+    border-radius: 16px
 }
 
 .batmanbox {
@@ -87,6 +96,13 @@ a:hover {
 
 .batmanbox p {
     color: #7B7B7B;
+}
+
+.batmanbox h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+
 }
 
 
@@ -233,7 +249,7 @@ select:hover {
     background-color: #3c3c3c;
 }
 
-form {
+.formlast {
     display: flex;
     gap: 16px;
 }
@@ -716,5 +732,93 @@ form {
     flex-wrap: wrap;
     gap: 24px;
     border-radius: 16px;
+
+}
+
+.burger {
+    display: none;
+}
+
+
+@media screen and (max-width: 1023px) {
+
+    .card,
+    .cardtwo,
+    .cardthree,
+    .cardfour,
+    .cardfive,
+    .cardsix,
+    .cardseven,
+    .cardlast {
+        max-width: 158px;
+        justify-content: center;
+    }
+
+    .cards {
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .list {
+        display: none;
+        gap: 32px;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .recomendedconttext {
+        align-items: unset;
+    }
+
+    .arlene p {
+        display: none;
+    }
+
+    .spidertwoimg {
+        all: unset;
+    }
+
+    .spidercont {}
+
+    .formlast {
+        flex-wrap: wrap;
+    }
+
+    .search-container {
+        max-width: unset;
+    }
+
+    .styled-select {
+        max-width: 145px;
+    }
+
+    .styled-selecttwo {
+        max-width: 145px;
+    }
+
+    .card,
+    .cardtwo,
+    .cardthree,
+    .cardfour,
+    .cardfive,
+    .cardsix,
+    .cardseven,
+    .cardlast {
+        max-width: 288px;
+        width: 100%;
+    }
+
+    .cards {
+        display: flex;
+        width: 288px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 24px;
+    }
 
 }
