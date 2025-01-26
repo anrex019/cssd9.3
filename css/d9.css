@@ -289,6 +289,16 @@ select:hover {
 }
 
 
+.firstmovie {
+    margin-top: 32px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    color: red;
+}
+
 .card {
     width: 192px;
     height: 219px;
@@ -302,107 +312,6 @@ select:hover {
     position: relative;
     overflow: hidden;
 }
-
-.cardtwo {
-    width: 192px;
-    height: 219px;
-    border-radius: 16px;
-    background-image: url(../img/image\ \(7\).png);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.cardthree {
-    width: 192px;
-    height: 219px;
-    border-radius: 16px;
-    background-image: url(../img/image\ \(8\).png);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.cardfour {
-    width: 192px;
-    height: 219px;
-    border-radius: 16px;
-    background-image: url(../img/image\ \(9\).png);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.cardfive {
-    width: 192px;
-    height: 219px;
-    border-radius: 16px;
-    background-image: url(../img/image\ \(10\).png);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.cardsix {
-    width: 192px;
-    height: 219px;
-    border-radius: 16px;
-    background-image: url(../img/image\ \(11\).png);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.cardseven {
-    width: 192px;
-    height: 219px;
-    border-radius: 16px;
-    background-image: url(../img/image\ \(12\).png);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.cardlast {
-    width: 192px;
-    height: 219px;
-    border-radius: 16px;
-    background-image: url(../img/image\ \(13\).png);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-}
-
-
-
 
 .card::after {
     content: '';
@@ -444,295 +353,33 @@ select:hover {
     display: block;
 }
 
-
-
-.cardtwo::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0);
-    backdrop-filter: blur(0);
-    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
-    border-radius: 16px;
-    z-index: 1;
-}
-
-.cardtwo:hover::after {
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2px);
-}
-
-.cardtwo button {
-    width: 135px;
-    height: 48px;
-    border: none;
-    color: #fff;
-    font-family: Inter, sans-serif;
-    text-transform: capitalize;
-    font-size: 16px;
-    line-height: 24px;
-    border-radius: 8px 32px;
-    background-color: #a00;
-    box-shadow: 5px 2px 11.9px 0px #a00;
-    cursor: pointer;
-    display: none;
-    z-index: 2;
-}
-
-.cardtwo:hover button {
-    display: block;
-}
-
-.cardthree::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0);
-    backdrop-filter: blur(0);
-    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
-    border-radius: 16px;
-    z-index: 1;
-}
-
-.cardthree:hover::after {
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2px);
-}
-
-.cardthree button {
-    width: 135px;
-    height: 48px;
-    border: none;
-    color: #fff;
-    font-family: Inter, sans-serif;
-    text-transform: capitalize;
-    font-size: 16px;
-    line-height: 24px;
-    border-radius: 8px 32px;
-    background-color: #a00;
-    box-shadow: 5px 2px 11.9px 0px #a00;
-    cursor: pointer;
-    display: none;
-    z-index: 2;
-}
-
-.cardthree:hover button {
-    display: block;
-}
-
-.cardfour::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0);
-    backdrop-filter: blur(0);
-    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
-    border-radius: 16px;
-    z-index: 1;
-}
-
-.cardfour:hover::after {
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2px);
-}
-
-.cardfour button {
-    width: 135px;
-    height: 48px;
-    border: none;
-    color: #fff;
-    font-family: Inter, sans-serif;
-    text-transform: capitalize;
-    font-size: 16px;
-    line-height: 24px;
-    border-radius: 8px 32px;
-    background-color: #a00;
-    box-shadow: 5px 2px 11.9px 0px #a00;
-    cursor: pointer;
-    display: none;
-    z-index: 2;
-}
-
-.cardfour:hover button {
-    display: block;
-}
-
-.cardfive::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0);
-    backdrop-filter: blur(0);
-    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
-    border-radius: 16px;
-    z-index: 1;
-}
-
-.cardfive:hover::after {
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2px);
-}
-
-.cardfive button {
-    width: 135px;
-    height: 48px;
-    border: none;
-    color: #fff;
-    font-family: Inter, sans-serif;
-    text-transform: capitalize;
-    font-size: 16px;
-    line-height: 24px;
-    border-radius: 8px 32px;
-    background-color: #a00;
-    box-shadow: 5px 2px 11.9px 0px #a00;
-    cursor: pointer;
-    display: none;
-    z-index: 2;
-}
-
-.cardfive:hover button {
-    display: block;
+.cardtwo {
+    background-image: url(../img/image\ \(13\).png);
 }
 
 
-.cardsix::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0);
-    backdrop-filter: blur(0);
-    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
-    border-radius: 16px;
-    z-index: 1;
+.cardthree {
+    background-image: url(../img/image\ \(12\).png);
 }
 
-.cardsix:hover::after {
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2px);
+.cardfour {
+    background-image: url(../img/image\ \(11\).png);
 }
 
-.cardsix button {
-    width: 135px;
-    height: 48px;
-    border: none;
-    color: #fff;
-    font-family: Inter, sans-serif;
-    text-transform: capitalize;
-    font-size: 16px;
-    line-height: 24px;
-    border-radius: 8px 32px;
-    background-color: #a00;
-    box-shadow: 5px 2px 11.9px 0px #a00;
-    cursor: pointer;
-    display: none;
-    z-index: 2;
+.cardfive {
+    background-image: url(../img/image\ \(10\).png);
 }
 
-.cardsix:hover button {
-    display: block;
+.cardsix {
+    background-image: url(../img/image\ \(9\).png);
 }
 
-.cardseven::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0);
-    backdrop-filter: blur(0);
-    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
-    border-radius: 16px;
-    z-index: 1;
+.cardseven {
+    background-image: url(../img/image\ \(8\).png);
 }
 
-.cardseven:hover::after {
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2px);
-}
-
-.cardseven button {
-    width: 135px;
-    height: 48px;
-    border: none;
-    color: #fff;
-    font-family: Inter, sans-serif;
-    text-transform: capitalize;
-    font-size: 16px;
-    line-height: 24px;
-    border-radius: 8px 32px;
-    background-color: #a00;
-    box-shadow: 5px 2px 11.9px 0px #a00;
-    cursor: pointer;
-    display: none;
-    z-index: 2;
-}
-
-.cardseven:hover button {
-    display: block;
-}
-
-.cardlast::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0);
-    backdrop-filter: blur(0);
-    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
-    border-radius: 16px;
-    z-index: 1;
-}
-
-.cardlast:hover::after {
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2px);
-}
-
-.cardlast button {
-    width: 135px;
-    height: 48px;
-    border: none;
-    color: #fff;
-    font-family: Inter, sans-serif;
-    text-transform: capitalize;
-    font-size: 16px;
-    line-height: 24px;
-    border-radius: 8px 32px;
-    background-color: #a00;
-    box-shadow: 5px 2px 11.9px 0px #a00;
-    cursor: pointer;
-    display: none;
-    z-index: 2;
-}
-
-.cardlast:hover button {
-    display: block;
-}
-
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    border-radius: 16px;
-
+.cardeight {
+    background-image: url(../img/image\ \(7\).png);
 }
 
 .burger {
@@ -742,20 +389,9 @@ select:hover {
 
 @media screen and (max-width: 1023px) {
 
-    .card,
-    .cardtwo,
-    .cardthree,
-    .cardfour,
-    .cardfive,
-    .cardsix,
-    .cardseven,
-    .cardlast {
-        max-width: 158px;
-        justify-content: center;
-    }
-
-    .cards {
-        justify-content: center;
+    .fullmove {
+        padding-left: 32px;
+        padding-right: 32px;
     }
 }
 
@@ -800,25 +436,49 @@ select:hover {
         max-width: 145px;
     }
 
-    .card,
-    .cardtwo,
-    .cardthree,
-    .cardfour,
-    .cardfive,
-    .cardsix,
-    .cardseven,
-    .cardlast {
+
+    .cardtwo {
         max-width: 288px;
         width: 100%;
     }
 
-    .cards {
-        display: flex;
-        width: 288px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        gap: 24px;
+    .cardthree {
+        max-width: 288px;
+        width: 100%;
+    }
+
+    .cardfour {
+        max-width: 288px;
+        width: 100%;
+    }
+
+    .cardfive {
+        max-width: 288px;
+        width: 100%;
+    }
+
+    .cardsix {
+        max-width: 288px;
+        width: 100%;
+    }
+
+    .cardseven {
+        max-width: 288px;
+        width: 100%;
+    }
+
+    .cardeight {
+        max-width: 288px;
+        width: 100%;
+    }
+
+    .card {
+        max-width: 288px;
+        width: 100%;
+    }
+    .firstmovie {
+        flex-wrap: wrap;
+    
     }
 
 }
